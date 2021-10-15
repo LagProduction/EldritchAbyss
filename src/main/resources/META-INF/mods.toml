@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+[[mods]]
+modId="eldritchabyss"
+
+version="1.0"
+displayName="Eldritch Abyss"
+logoFile="logo.png"
+credits="Alpha, Gec Master"
+authors="Alpha, Gec Master"
+description='''Eldritch Abyss is a mod that turns the vanilla ocean into a horror movie of an environment where massive aquatic monstrosities reside. Explore the unnerving depths at your own risk.... but there are always more mysteries hidden beneath the infinite waves.
+'''
+[[dependencies.examplemod]] #optional
+    modId="forge"
+    mandatory=true 
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
